@@ -1,26 +1,16 @@
-# Rust Style Guide
+# Rustスタイルガイド
 
-## Motivation - why use a formatting tool?
+## 動機 - なぜフォーマットツールを使うのか
 
-Formatting code is a mostly mechanical task which takes both time and mental
-effort. By using an automatic formatting tool, a programmer is relieved of
-this task and can concentrate on more important things.
+コードのフォーマットは、時間と精神的努力を必要とする機械的な作業がほとんどです。自動フォーマットツールを用いることでプログラマはこの作業から解放され、より重要な別の作業に集中できます。
 
-Furthermore, by sticking to an established style guide (such as this one),
-programmers don't need to formulate ad hoc style rules, nor do they need to
-debate with other programmers what style rules should be used, saving time,
-communication overhead, and mental energy.
+さらに、確立されたスタイルガイド（のようなもの）に固執することでプログラマはプロジェクトごとにスタイルルールを策定する必要がなく、他のプログラマとどのスタイルルールを使用するのかという議論もいらなくなり、時間、コミュニケーション、精神的エネルギーを節約できます。
 
-Humans comprehend information through pattern matching. By ensuring that all
-Rust code has similar formatting, less mental effort is required to comprehend a
-new project, lowering the barrier to entry for new developers.
+人々はパターンマッチにより情報を理解します。すべてのRust言語のコードが同じフォーマットであることを保証することで、新しいプロジェクトを理解する時間を短縮できるため、開発者の新規参入の障壁が低くなります。
 
-Thus, there are productivity benefits to using a formatting tool (such as
-rustfmt), and even larger benefits by using a community-consistent formatting,
-typically by using a formatting tool's default settings.
+さらに、フォーマットツール（rustfmtなど）を使用するとせいさん生産性が向上し、コミュニティの一貫したフォーマット（通常はフォーマットツールのデフォルト設定）を使用することでさらに大きなメリットが得られます。
 
-
-## Formatting conventions
+## フォーマット規則
 
 ### Indentation and line width
 
